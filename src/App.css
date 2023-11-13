@@ -1,0 +1,27 @@
+.taskheader{
+  display: flex;
+  justify-content: space-between;
+}
+.addtask{
+  /* border: 2px solid red; */
+  padding: 10px;
+}
+body{
+  background: rgb(76,131,232);
+background: linear-gradient(90deg, rgba(76,131,232,0.9572649572649573) 0%, rgba(109,42,153,1) 100%, rgba(196,190,56,1) 100%);
+}
+.title{
+  font-size: 33px;
+  text-align: center;
+  margin: 20px;
+  text-decoration: underline;
+  text-decoration-color: #589e9e;
+  text-shadow: 2px 2px rgb(162, 112, 112);
+  text-underline-offset: 10px;
+  
+
+}
+#tasks{
+  color: white;
+  font-size: 32px;
+}
